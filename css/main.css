@@ -6860,7 +6860,7 @@ textarea.form-control-lg {
   --bs-offcanvas-height: 30vh;
   --bs-offcanvas-padding-x: 1rem;
   --bs-offcanvas-padding-y: 1rem;
-  --bs-offcanvas-color: ;
+  --bs-offcanvas-color: #03a0f4;
   --bs-offcanvas-bg: #fff;
   --bs-offcanvas-border-width: 1px;
   --bs-offcanvas-border-color: var(--bs-border-color-translucent);
@@ -15082,7 +15082,9 @@ img {
 .slider-main-text .display-tc h1,
 .navbar .nav-link,
 .navbar .nav-link.active,
-.navbar-brand
+.navbar-brand,
+.navbar.fixed-top .navbar-toggler,
+.navbar .navbar-toggler
 {
   color: #03a0f4 !important;
 }
