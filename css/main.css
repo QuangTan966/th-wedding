@@ -14040,42 +14040,51 @@ img {
   background-size: 250px;
   margin-bottom: 0;
 }
-.testimonials .friend-avatar {
-  background-image: url(../images/wishes/flower.webp);
+/*.testimonials .friend-avatar {*/
+/*  background-image: url(../images/wishes/flower.webp);*/
+/*  background-position: -22px -2px;*/
+/*  background-size: 150px !important;*/
+/*}*/
+.testimonials .friend-info .friend-avatar-1 {
+  background-image: url(../images/wishes/flower1.jpg);
   background-position: -22px -2px;
   background-size: 150px !important;
 }
-.testimonials .friend-info .friend-avatar-11 {
-  background-image: url(../images/wishes/friends01.png);
-  background-position: -8px -9px
+.testimonials .friend-info .friend-avatar-2 {
+  background-image: url(../images/wishes/flower2.jpg);
+  background-position: -38px 2px;
+  background-size: 170px !important;
 }
-.testimonials .friend-info .friend-avatar-12 {
-  background-image: url(../images/wishes/friends01.png);
-  background-position: -8px -120px;
+.testimonials .friend-info .friend-avatar-3 {
+  background-image: url(../images/wishes/flower3.jpg);
+  background-position: -23px -1px;
+  background-size: 170px !important;
+
 }
-.testimonials .friend-info .friend-avatar-13 {
-  background-image: url(../images/wishes/friends01.png);
-  background-position: -117px -116px;
+.testimonials .friend-info .friend-avatar-4 {
+  background-image: url(../images/wishes/flower4.jpeg);
+  background-position: -23px -1px;
+  background-size: 170px !important;
 }
-.testimonials .friend-info .friend-avatar-14 {
-  background-image: url(../images/wishes/friends01.png);
-  background-position: -117px -8px;
+.testimonials .friend-info .friend-avatar-5 {
+  background-image: url(../images/wishes/flower5.jpg);
+  background-position: -29px -1px;
+  background-size: 170px !important;
 }
-.testimonials .friend-info .friend-avatar-15 {
-  background-image: url(../images/wishes/friends02.png);
-  background-position: -18px -122px;
+.testimonials .friend-info .friend-avatar-6 {
+  background-image: url(../images/wishes/flower6.jpg);
+  background-position: -8px -4px;
+  background-size: 160px !important;
 }
-.testimonials .friend-info .friend-avatar-16 {
-  background-image: url(../images/wishes/friends02.png);
-  background-position: -125px -122px;
+.testimonials .friend-info .friend-avatar-7 {
+  background-image: url(../images/wishes/flower7.jpg);
+  background-position: -37px 5px;
+  background-size: 170px !important;
 }
-.testimonials .friend-info .friend-avatar-17 {
-  background-image: url(../images/wishes/friends02.png);
-  background-position: -18px -12px;
-}
-.testimonials .friend-info .friend-avatar-18 {
-  background-image: url(../images/wishes/friends02.png);
-  background-position: -126px -12px
+.testimonials .friend-info .friend-avatar-8 {
+  background-image: url(../images/wishes/flower8.jpg);
+  background-position: -12px 0px;
+  background-size: 150px !important;
 }
 .testimonials .item .friend-message-1 {
   background: linear-gradient(135deg, #30c67c, #82f4b1) border-box;
