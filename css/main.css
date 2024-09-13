@@ -12332,6 +12332,10 @@ body.offcanvas {
   padding: 4.3em 0;
   clear: both;
 }
+.countdown.section {
+  padding: 2em 0;
+  clear: both;
+}
 @media (min-width: 768px) {
   .section {
     padding: 4.3em 0 4em;
@@ -13811,7 +13815,7 @@ img {
   width: 100%;
   position: absolute;
   bottom: 0;
-  z-index: 4;
+  z-index: 10000;
   padding-right: 5px;
   text-align: right;
   color: #FFF;
@@ -14601,6 +14605,7 @@ img {
   padding: 10px 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   display: inline-block;
+  color: #333;
 }
 #preloader .hearts-container {
   position: relative;
@@ -15044,9 +15049,41 @@ img {
     font-size: 14px;
   }
 }
+.event-image-mobile {
+  display: none;
+}
 @media (max-width: 575px) {
   .heading h2, .heading .h2 {
     font-size: 40px
+  }
+  .event-content-icon,
+  .accordion-img.panel-group {
+    display: none !important;
+  }
+  .event-image-mobile {
+    display: block !important;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .events-accordion .panel-heading + .panel-collapse > .panel-body {
+    max-height: 320px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 490px) {
+  .event-image-mobile {
+    display: block !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .countdown .heading {
+    margin-bottom: 1em !important;
+  }
+  .countdown .countdown-place {
+    margin-top: 1.5em !important;
+  }
+  .timer .timer-item .digit {
+    font-size: 45px;
   }
 }
 #alert-modal .modal-dialog {
