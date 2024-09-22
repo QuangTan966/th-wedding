@@ -14762,7 +14762,7 @@ img {
     padding: 0 5px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   .banner-text_names {
     font-size: 18px;
   }
@@ -14776,6 +14776,16 @@ img {
   }
   .banner-text span {
     padding: 0 5px;
+  }
+  .slider-main-text {
+    padding: 0;
+    left: 0;
+  }
+}
+@media (max-width: 350px) {
+  .banner-heart-icon {
+    font-size: 11px;
+    padding: 0 2px !important;
   }
 }
 @media (max-width: 764px) {
