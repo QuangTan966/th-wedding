@@ -14682,6 +14682,11 @@ img {
   left: 60px;
   animation-delay: 1s;
 }
+@media (max-width: 896px) {
+  .owl-nav {
+    display: none !important;
+  }
+}
 @media (max-width: 750px) {
   .banner-text_names {
     font-size: 35px;
