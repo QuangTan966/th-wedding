@@ -13894,14 +13894,14 @@ img {
   padding: 20px 25px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin: 20px 20px 20px 0;
+  margin: 20px;
 }
 
 #groom-modal .modal-content .modal-content-form {
   padding: 20px 25px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin: 20px 0 20px 20px;
+  margin: 20px;
 }
 
 .happy-modal .modal-content .modal-content-img {
@@ -13962,20 +13962,22 @@ img {
 
 #bride-modal .happy-img {
   height: 300px;
-  width: 100%;
-  background-position: -210px -100px;
+  max-width: 250px;
+  margin: 0 auto;
+  background-position: -230px -110px;
   background-size: 500px auto;
   background-repeat: no-repeat;
-  background-image: url('../images/couples/couple-modal.png');
+  background-image: url(../images/couples/couple-modal.png);
 }
 
 #groom-modal .happy-img {
   height: 300px;
-  width: 100%;
-  background-position: 40px -100px;
+  max-width: 250px;
+  margin: 0 auto;
+  background-position: 0px -110px;
   background-size: 500px auto;
   background-repeat: no-repeat;
-  background-image: url('../images/couples/couple-modal.png');
+  background-image: url(../images/couples/couple-modal.png);
 }
 .happy-modal .qr-code-content h3 {
   font-size: 18px;
@@ -14862,165 +14864,37 @@ img {
     font-size: 24px;
   }
 }
-@media (max-width: 992px) {
-  .happy-modal .modal-dialog {
-    max-width: 800px !important;
-  }
-}
-@media (max-width: 800px) {
-  .happy-modal .modal-dialog {
-    max-width: 700px !important;
-  }
-  #groom-modal .happy-img {
-    background-position: 10px -100px;
-  }
-  #bride-modal .happy-img {
-    background-position: -230px -100px;
-  }
-}
-@media (max-width: 700px) {
-  .happy-modal {
-    padding: 0px;
-  }
-  .happy-modal .modal-dialog {
-    max-width: calc(100% - 30px) !important;
-  }
-  #groom-modal .happy-img {
-    background-position: 0px -100px;
-  }
-  #bride-modal .happy-img {
-    background-position: -240px -100px;
-  }
-  .happy-modal .qr-code-img {
-    width: 230px;
-  }
-  .happy-modal .modal-body .col-sm-6 {
-    padding: 0;
-  }
-  #groom-modal .modal-content .modal-content-form,
-  #bride-modal .modal-content .modal-content-form {
-    padding: 20px 15px;
-  }
-}
-@media (max-width: 575px) {
-  .happy-modal .modal-dialog {
-    max-width: 100% !important;
-  }
-  .happy-modal .modal-body .col-7 {
-    width: 55%;
-    padding: 0;
-  }
-  .happy-modal .modal-body .col-5 {
-    padding: 0;
-    width: 45%;
-  }
-  #groom-modal .modal-content .modal-content-form,
-  #bride-modal .modal-content .modal-content-form {
-    padding: 10px 10px;
-  }
-  #groom-modal .happy-img {
-    background-position: 40px -100px;
-    height: 230px;
-    background-size: 400px auto;
-  }
-  #bride-modal .happy-img {
-    background-position: -160px -100px;
-    height: 230px;
-    background-size: 400px auto;
-  }
-  .happy-modal .qr-code-content h3 {
-    font-size: 14px;
-  }
-  .happy-modal .modal-content .modal-content-img {
-    padding: 15px 10px;
-  }
-  .happy-modal .qr-code-img {
-    width: 180px;
-  }
-}
-@media (max-width: 550px) {
-  #groom-modal .happy-img {
-    background-position: 30px -100px;
-  }
-  #bride-modal .happy-img {
-    background-position: -170px -100px;
-  }
-}
+
 @media (max-width: 480px) {
-  #groom-modal .modal-content .modal-content-form,
-  #bride-modal .modal-content .modal-content-form {
-    padding: 0px 0px;
-    border: none;
-    margin: 10px;
-  }
   #groom-modal .happy-img {
-    background-position: 0px -100px;
-    width: 50%;
     height: 250px;
+    max-width: 200px;
     background-size: 450px auto;
+    background-position: -20px -110px;
   }
   #bride-modal .happy-img {
-    background-position: -230px -100px;
-    width: 50%;
     height: 250px;
+    max-width: 200px;
     background-size: 450px auto;
-    margin-left: 50%;
+    background-position: -220px -110px;
   }
-  .happy-modal .qr-code-img {
-    width: 150px;
-    margin-top: 30px;
-  }
-  .happy-modal .modal-content .congrat-title {
-    margin: 30px 0 0;
-  }
-  .happy-modal .modal-body .col-7 {
-    width: 100%;
-    padding: 0;
-  }
-  #groom-modal .modal-body .col-5 {
-    padding: 0;
-    width: 45%;
-    position: absolute;
-    right: 10px;
-  }
-  #bride-modal .modal-body .col-5 {
-    padding: 0;
-    width: 45%;
-    position: absolute;
-    left: 10px;
-  }
-  .happy-modal .qr-code-content h3 {
-    font-size: 13px;
-    margin-bottom: 5px !important;
-  }
-  .happy-modal .qr-code-content p {
-    margin: 0;
-  }
-  .happy-modal .congratulation-form .form-group input {
-    margin-right: 10px;
-    margin-left: 10px;
+  #bride-modal .modal-content .modal-content-form,
+  #groom-modal .modal-content .modal-content-form {
+    padding: 10px 15px;
   }
 }
 @media (max-width: 400px) {
-  .happy-modal .qr-code-content h3 {
-    font-size: 12px;
-    margin-bottom: 5px !important;
-  }
-  .happy-modal .modal-content .congrat-title {
-    margin: 35px 0 0;
-  }
   #groom-modal .happy-img {
-    background-position: -20px -100px;
-    width: 50%;
     height: 230px;
-    background-size: 430px auto;
+    max-width: 200px;
+    background-size: 400px auto;
+    background-position: 0px -100px;
   }
   #bride-modal .happy-img {
-    background-position: -240px -100px;
-    width: 50%;
-    margin-left: 50%;
     height: 230px;
-    background-size: 430px auto;
+    max-width: 200px;
+    background-size: 400px auto;
+    background-position: -180px -100px;
   }
 }
 @media (max-width: 700px) {
